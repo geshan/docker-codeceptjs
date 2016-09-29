@@ -24,6 +24,8 @@ RUN apt-get update && \
         gcc-multilib \
         g++-multilib \
         xauth \
+        python \
+	      git \
         --no-install-recommends \
     && apt-get autoclean \
     && apt-get clean \
